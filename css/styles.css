@@ -5993,14 +5993,40 @@ a.close.disabled {
   opacity: 1;
 }
 
-.carousel-caption {
+.carousel-caption-top {
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  top: 20px;
+  bottom: auto;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption-middle {
+  position: absolute;
+  right: 15%;
+  top: auto;
+  bottom: auto;
+  left: 15%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption-bottom {
   position: absolute;
   right: 15%;
   bottom: 20px;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #fff;
   text-align: center;
 }
